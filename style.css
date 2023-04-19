@@ -1,0 +1,1520 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px;
+}
+
+.cabecalhodiv {
+    display: flex;
+    background-color: black;
+    color: #ffffffff;
+    padding: 8px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+.cabecalhohead {
+    display: flex;
+    gap: 50px;
+    margin-left: 550px;
+    margin-top: 18px;
+    border-bottom: 1px solid #ffee00;
+
+
+}
+
+
+
+h1 {
+    font-size: 20px;
+    margin-left: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    position: fixed;
+    display: flex;
+    color: rgb(136, 125, 125);
+    border-bottom: 1px solid yellow;
+    text-shadow: 0px 0px 40px yellow;
+
+
+}
+
+.box {
+    top: 160px;
+    right: 520px;
+    width: 50px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+
+}
+
+
+.link {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    height: 22px;
+    width: 120px;
+    border-radius: 17px;
+    color: rgb(9, 9, 9);
+    background-color: rgb(255, 248, 42);
+    text-shadow: 7px 7px 40px yellow;
+}
+
+
+
+.conteudo {
+    flex: 1 0 auto;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    padding: 30px;
+    height: 200px;
+
+}
+
+h2 {
+    font-size: 50px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 220px;
+}
+
+.mil {
+    color: red;
+}
+
+.mp3 {
+    position: relative;
+    width: 17vw;
+    margin: auto;
+    display: block;
+    bottom: 250px;
+}
+
+.botao-mp3 {
+    width: 125px;
+    height: 30px;
+    border-radius: 17px;
+    font-size: 17px;
+    font-weight: 300;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    position: relative;
+    bottom: 120px;
+}
+
+.conteudo-2 {
+    flex: 1 0 auto;
+    margin: auto;
+    display: block;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    height: 450px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(7, 7, 7);
+    color: rgb(255, 255, 255);
+
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: 500;
+    width: 100vw;
+    height: 32px;
+    letter-spacing: 3px;
+    border-bottom: 2px solid yellow;
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+
+.f-carlos {
+    width: 23vw;
+    height: 70vh;
+    border-radius: 10px;
+    margin: 0 0 0 740px;
+
+}
+
+h4 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    line-height: 1px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 50px #811818;
+    position: relative;
+    bottom: 300px;
+}
+
+h4::before {
+    content: "♕";
+}
+
+.my {
+    font-size: 15px;
+    font-weight: 100;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: 270px;
+    color: #fff;
+    border: none;
+}
+
+.conteudo-2-1 {
+    flex: 1 0 auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    width: 100vw;
+    height: 350px;
+}
+
+.banda {
+    width: 655px;
+    height: 400px;
+    position: relative;
+    left: 600px;
+    border-radius: 20px;
+    bottom: 25px;
+
+}
+
+.audio-1 {
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    margin-top: 270px;
+    margin-left: 220px;
+    border-top: 1px solid #000;
+}
+
+.p-1 {
+    font-size: 50px;
+    width: 38vw;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 100px;
+    opacity: 0.6;
+}
+
+.p-1::after {
+    content: "▶";
+    font-size: 45px;
+}
+
+.audio-2 {
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    margin-top: 200px;
+    margin-left: 220px;
+    border-top: 1px solid #53534d;
+}
+
+.p-2 {
+    font-size: 15px;
+    font-weight: 200;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 240px;
+}
+
+.p-3 {
+    font-size: 15px;
+    font-weight: 200;
+    position: absolute;
+    margin-left: 237px;
+    margin-top: 170px;
+}
+
+.p-2::before {
+    content: "♫";
+    opacity: 0.5;
+}
+
+.p-3::before {
+    content: "♫";
+    opacity: 0.5;
+}
+
+.conteudo-3 {
+    flex: 1 0 auto;
+    padding: 30px;
+    height: 680px;
+    width: 100vw;
+    background-color: rgb(46, 46, 50);
+    color: rgb(255, 252, 252);
+
+}
+
+h5 {
+    width: 50%;
+    font-size: 70px;
+    height: 200;
+    margin-left: 40px;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+
+.video {
+    width: 50vw;
+    height: 55vh;
+    margin-left: 20px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 300px;
+}
+
+.paragrafo-1 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 8;
+    margin-left: 700px;
+    margin-top: 250px;
+    letter-spacing: 4px;
+}
+
+.paragrafo-2 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 8;
+    margin-left: 700px;
+    margin-top: 400px;
+    letter-spacing: 4px;
+}
+
+.sera {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 510;
+    letter-spacing: 6px;
+    margin-left: 800px;
+    margin-top: 320px;
+    width: 30vw;
+}
+
+.shorts {
+    position: absolute;
+    width: 30vw;
+    font-size: 20px;
+    font-weight: 510;
+    margin-left: 770px;
+    margin-top: 450px;
+    cursor: pointer;
+    letter-spacing: 4px;
+    border-bottom: 1px solid #ffee00;
+
+}
+
+.vitimas {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 510;
+    margin-left: 770px;
+    margin-top: 540px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 4px;
+    border-bottom: 1px solid #ffee00;
+}
+
+.ze-ninguem {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 510;
+    margin-left: 770px;
+    margin-top: 600px;
+    color: white;
+    width: 30vw;
+    cursor: pointer;
+    letter-spacing: 4px;
+    border-bottom: 1px solid #ffee00;
+}
+
+.linha-1 {
+    position: absolute;
+    margin-left: 665px;
+    font-size: 30px;
+    margin-top: 320px;
+    color: #ffee00;
+}
+
+.linha-2 {
+    position: absolute;
+    margin-left: 930px;
+    font-size: 20px;
+    margin-top: 400px;
+    color: #ffee00;
+}
+
+.simbolo-music {
+    position: absolute;
+    font-size: 40px;
+}
+
+.rodape {
+    flex-shrink: 0;
+    background-color: black;
+    color: #ffffffff;
+    padding: 30px;
+    width: 100vw;
+}
+
+.tell {
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    letter-spacing: 2px;
+    margin: auto;
+
+}
+
+.email {
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+.cep {
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+.box:hover {
+    width: 200px;
+    background: #c32aa4;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 50px #b315917c;
+}
+
+.box:nth-child(2):hover {
+    background: #25d366;
+    box-shadow: 0 0 50px #25d36573;
+}
+
+.box:nth-child(3):hover {
+    background: #1877f2;
+    box-shadow: 0 0 50px #1876f285;
+}
+
+.box:nth-child(4):hover {
+    background: #f83b3b;
+    box-shadow: 0 0 50px #e8030373;
+}
+
+.navbar p {
+    transform: translate(70px);
+    color: #fff;
+}
+
+.box .icon {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+
+.instagram {
+    background-color: #c32aa3;
+}
+
+.whatsapp {
+    background-color: #25d366;
+}
+
+.facebook {
+    background-color: #1877f2;
+}
+
+.youtube {
+    background-color: #f83b3b;
+}
+
+.box:hover .icon {
+    background: #fff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.26),
+}
+
+
+.link:hover {
+    opacity: 0.4;
+}
+
+.link:active {
+    opacity: 0.7;
+}
+
+.botao-mp3:hover {
+    opacity: 0.4;
+}
+
+.botao-mp3:active {
+    opacity: 0.7;
+}
+
+.shorts:hover {
+    opacity: 0.4;
+}
+
+.vitimas:hover {
+    opacity: 0.4;
+}
+
+.ze-ninguem:hover {
+    opacity: 0.4;
+}
+
+h2::after {
+    content: "♫";
+}
+
+h1::before {
+    content: "♕";
+    color: #ffee00;
+    opacity: 0.9;
+}
+
+h5::after {
+    content: "▶";
+    color: red;
+    font-size: 60px;
+    opacity: 0.7;
+}
+
+.tell::before {
+    content: "✆-";
+    font-size: 20px;
+}
+
+.email::before {
+    content: "✉-";
+    font-size: 20px;
+}
+
+.cep::after {
+    content: "-🇧🇷";
+}
+
+.linha-1::before {
+    content: "━━━━";
+}
+
+.linha-2::after {
+    content: "━━━━━━━━━━━";
+}
+
+
+
+ @media screen and (max-width: 495px) {
+
+    .cabecalhodiv {
+        width: 100%;
+        height: 40px;
+        margin-left: 70px;
+        padding: 0;
+    }
+
+    .cabecalhohead {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        align-items: center;
+        border: none;
+        justify-content: center;
+    }
+
+    .conteudo {
+        height: 540px;
+        margin: auto;
+        width: 100%;
+        padding: 34px;
+    }
+
+    h2 {
+        margin-top: 80px;
+        text-align: center;
+        align-items: center;
+        font-size: 25px;
+        width: 100%;
+        justify-content: center;
+        position: static;
+    }
+
+    .botao-mp3 {
+        margin-top: 280px;
+        margin-left: 90px;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .navbar {
+        width: 73%;
+        margin: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 390px;
+        margin-left: 30px;
+    }
+
+    .box {
+        font-size: 17px;
+        width: 1px;
+        position: static;
+    }
+
+
+    .box:hover {
+        width: 129px;
+        height: 24px;
+        background: #c32aa4;
+        border-radius: 35px;
+        color: #fff;
+        box-shadow: 0 0 50px #b315917c;
+    }
+
+    .navbar p {
+        transform: translate(36px);
+        color: #fff;
+    }
+
+    .box .icon {
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        display: flex;
+        color: #fff;
+        border-radius: 50%;
+        margin-right: 10px;
+        transition: all .4s ease;
+    }
+
+    html {
+        width: 82%;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        width: 100%;
+        padding: 0;
+    }
+
+    .mp3 {
+        width: 140px;
+        display: flex;
+        margin-left: 92px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h3 {
+        width: 73%;
+        font-size: 12px;
+        padding: 36px;
+        border: none;
+
+    }
+
+    .conteudo-2 {
+        width: 100%;
+        margin-left: 2px;
+        height: 740px;
+        padding: 34px;
+
+    }
+
+    .f-carlos {
+        width: 260px;
+        height: 400px;
+        margin: 26px 0 0 0;
+    }
+
+    h4 {
+        font-size: 26px;
+        position: relative;
+        top: 60px;
+        width: 100%;
+    }
+
+    .my {
+        position: static;
+        margin: 104px 0 0 0;
+        width: 100%;
+    }
+
+    .conteudo-2-1 {
+        width: 100%;
+        height: 500px;
+        padding: 34px;
+        margin-left: 72px;
+
+    }
+
+    .p-1 {
+        font-size: 30px;
+        width: 82%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+
+    .p-1::after {
+        font-size: 28px;
+    }
+
+    .audio-2 {
+        width: 160px;
+        height: 40px;
+        margin: auto;
+        margin-top: 100px;
+        display: flex;
+        position: static;
+    }
+
+    .audio-1 {
+        width: 160px;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        position: relative;
+        top: 40px;
+
+    }
+
+    .p-2 {
+        width: 44%;
+        display: flex;
+        margin: 154px 0 0 66px;
+    }
+
+    .p-3 {
+        width: 44%;
+        display: flex;
+        margin: 74px 0 0 78px;
+    }
+
+    .banda {
+        width: 330px;
+        height: 200px;
+        margin-top: 80px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: static;
+    }
+
+    .conteudo-3 {
+        width: 100%;
+        margin-left: 72px;
+        height: 700px;
+        padding: 34px;
+
+    }
+
+    .video {
+        width: 300px;
+        height: 158px;
+        margin: 260px 0 0 10px;
+    }
+
+    h5 {
+        font-size: 36px;
+        margin: 20px 0 0 50px;
+    }
+
+    h5::after {
+        font-size: 40px;
+    }
+
+    .paragrafo-1 {
+        margin: 150px 0 0 80px;
+        font-size: 10px;
+    }
+
+    .linha-1 {
+        margin: 146px 0 0 18px;
+        font-size: 14px;
+    }
+
+    .sera {
+        margin: 194px 0 0 68px;
+        letter-spacing: 2px;
+        font-size: 12px;
+        width: 240px;
+        font-weight: 200;
+    }
+
+    .paragrafo-2 {
+        font-size: 10px;
+        margin: 460px 0px 0 28px;
+    }
+
+    .linha-2 {
+        margin: 460px 0 0 180px;
+        font-size: 8px;
+    }
+
+    .shorts {
+        margin: 500px 0 0 20px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        width: 240px;
+    }
+
+    .vitimas {
+        margin: 560px 0 0 20px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        width: 170px;
+    }
+
+    .ze-ninguem {
+        margin: 620px 0 0 20px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        width: 240px;
+    }
+
+    .rodape {
+        width: 100%;
+        height: 120px;
+        margin-left: 72px;
+        padding: 34px;
+
+    }
+
+    .tell {
+        font-size: 8px;
+    }
+
+    .tell::before {
+        font-size: 14px;
+    }
+
+    .email {
+        font-size: 8px;
+    }
+
+    .email::before {
+        font-size: 14px;
+    }
+
+    .cep {
+        font-size: 8px;
+    }
+
+    .cep::after {
+        font-size: 14px;
+    }
+
+
+}
+
+ @media screen and (min-width:700px) and (max-width: 830px){
+        .cabecalhodiv {
+            width: 100%;
+            height: 50px;
+            margin-left: 160px;
+            padding: 0;
+        }
+
+        .cabecalhohead {
+            display: none;
+        }
+
+        h1 {
+            font-size: 32px;
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            align-items: center;
+            border: none;
+            justify-content: center;
+        }
+
+        .conteudo {
+            height: 540px;
+            margin: auto;
+            width: 100%;
+            padding: 82px;
+        }
+
+        h2 {
+            margin-top: 80px;
+            text-align: center;
+            align-items: center;
+            font-size: 49px;
+            width: 100%;
+            justify-content: center;
+            position: static;
+        }
+
+        .botao-mp3 {
+            margin-top: 280px;
+            margin-left: 250px;
+            width: 150px;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+        .navbar {
+            width: 80%;
+            margin: auto;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 500px;
+            margin-left: 138px;
+        }
+
+        .box {
+            font-size: 26px;
+            width: 60px;
+            position: static;
+        }
+
+
+        .box:hover {
+            width: 220px;
+            height: 60px;
+            background: #c32aa4;
+            border-radius: 35px;
+            color: #fff;
+            box-shadow: 0 0 50px #b315917c;
+        }
+
+        .navbar p {
+            transform: translate(70px);
+            color: #fff;
+        }
+
+        .box .icon {
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            color: #fff;
+            border-radius: 50%;
+            margin-right: 10px;
+            transition: all .4s ease;
+        }
+
+        html {
+            width: 82%;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            width: 100%;
+            padding: 0;
+        }
+
+        .mp3 {
+            width: 200px;
+            display: flex;
+            margin-left: 230px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h3 {
+            width: 73%;
+            font-size: 20px;
+            padding: 36px;
+            border: none;
+
+        }
+
+        .conteudo-2 {
+            width: 100%;
+            height: 740px;
+            padding: 82px;
+
+        }
+
+        .f-carlos {
+            width: 400px;
+            height: 488px;
+            margin: 26px 0 0 0;
+        }
+
+        h4 {
+            font-size: 41px;
+            position: relative;
+            top: 60px;
+            width: 100%;
+        }
+
+        .my {
+            position: static;
+            font-size: 32px;
+            margin: 104px 0 0 0;
+            width: 100%;
+        }
+
+        .conteudo-2-1 {
+            width: 100%;
+            height: 600px;
+            padding: 89px;
+            margin-left: 147px;
+
+        }
+
+        .p-1 {
+            font-size: 40px;
+            width: 82%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: auto;
+        }
+
+        .p-1::after {
+            font-size: 28px;
+        }
+
+        .audio-2 {
+            width: 200px;
+            height: 40px;
+            margin: auto;
+            margin-top: 120px;
+            display: flex;
+            position: static;
+        }
+
+        .audio-1 {
+            width: 200px;
+            height: 40px;
+            margin: auto;
+            display: flex;
+            position: relative;
+            top: 40px;
+
+        }
+
+        .p-2 {
+            width: 44%;
+            font-size: 25px;
+            display: flex;
+            margin: 160px 0 0 200px;
+        }
+
+        .p-3 {
+            width: 44%;
+            font-size: 25px;
+            display: flex;
+            margin: 74px 0 0 210px;
+        }
+
+        .banda {
+            width: 700px;
+            height: 400px;
+            margin-top: 80px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            position: static;
+        }
+
+        .conteudo-3 {
+            width: 100%;
+            height: 900px;
+            margin-left: 167px;
+            padding: 79px;
+
+        }
+
+        .video {
+            width: 600px;
+            height: 300px;
+            margin: 290px 0 0 10px;
+        }
+
+        h5 {
+            font-size: 43px;
+            margin: 20px 0 0 50px;
+        }
+
+        h5::after {
+            font-size: 40px;
+        }
+
+        .paragrafo-1 {
+            margin: 150px 0 0 100px;
+            font-size: 16px;
+        }
+
+        .linha-1 {
+            margin: 146px 0 0 18px;
+            font-size: 16px;
+        }
+
+        .sera {
+            margin: 194px 0 0 68px;
+            letter-spacing: 2px;
+            font-size: 23px;
+            width: 400px;
+        }
+
+        .paragrafo-2 {
+            font-size: 20px;
+            margin: 610px 0px 0 28px;
+        }
+
+        .linha-2 {
+            margin: 620px 0 0 300px;
+            font-size: 16px;
+        }
+
+        .shorts {
+            margin: 670px 0 0 20px;
+            font-size: 23px;
+            letter-spacing: 2px;
+            width: 400px;
+        }
+
+        .vitimas {
+            margin: 780px 0 0 20px;
+            font-size: 23px;
+            letter-spacing: 2px;
+            width: 400px;
+        }
+
+        .ze-ninguem {
+            margin: 860px 0 0 20px;
+            font-size: 23px;
+            letter-spacing: 2px;
+            width: 400px;
+        }
+
+        .rodape {
+            width: 100%;
+            height: 120px;
+            margin-left: 166px;
+            padding: 79px;
+
+        }
+
+        .tell {
+            font-size: 23px;
+        }
+
+        .tell::before {
+            font-size: 32px;
+        }
+
+        .email {
+            font-size: 23px;
+        }
+
+        .email::before {
+            font-size: 32px;
+        }
+
+        .cep {
+            font-size: 23px;
+        }
+
+        .cep::after {
+            font-size: 32px;
+        } 
+
+ }
+    
+
+
+  @media screen and (min-width:900px) and (max-width: 1000px){
+
+    .cabecalhodiv {
+        width: 100%;
+        height: 40px;
+        margin-left: 160px;
+        padding: 0;
+    }
+
+    .cabecalhohead {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        align-items: center;
+        border: none;
+        justify-content: center;
+    }
+
+    .conteudo {
+        height: 540px;
+        margin: auto;
+        width: 100%;
+        padding: 82px;
+    }
+
+    h2 {
+        margin-top: 80px;
+        text-align: center;
+        align-items: center;
+        font-size: 49px;
+        width: 100%;
+        justify-content: center;
+        position: static;
+    }
+
+    .botao-mp3 {
+        margin-top: 280px;
+        margin-left: 295px;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .navbar {
+        width: 80%;
+        margin: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 500px;
+        margin-left: 138px;
+    }
+
+    .box {
+        font-size: 26px;
+        width: 60px;
+        position: static;
+    }
+
+
+    .box:hover {
+        width: 220px;
+        height: 60px;
+        background: #c32aa4;
+        border-radius: 35px;
+        color: #fff;
+        box-shadow: 0 0 50px #b315917c;
+    }
+
+    .navbar p {
+        transform: translate(70px);
+        color: #fff;
+    }
+
+    .box .icon {
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        color: #fff;
+        border-radius: 50%;
+        margin-right: 10px;
+        transition: all .4s ease;
+    }
+
+    html {
+        width: 82%;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        width: 100%;
+        padding: 0;
+    }
+
+    .mp3 {
+        width: 140px;
+        display: flex;
+        margin-left: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h3 {
+        width: 73%;
+        font-size: 20px;
+        padding: 36px;
+        border: none;
+
+    }
+
+    .conteudo-2 {
+        width: 100%;
+        height: 740px;
+        padding: 82px;
+
+    }
+
+    .f-carlos {
+        width: 400px;
+        height: 488px;
+        margin: 26px 0 0 0;
+    }
+
+    h4 {
+        font-size: 41px;
+        position: relative;
+        top: 60px;
+        width: 100%;
+    }
+
+    .my {
+        position: static;
+        font-size: 32px;
+        margin: 104px 0 0 0;
+        width: 100%;
+    }
+
+    .conteudo-2-1 {
+        width: 100%;
+        height: 600px;
+        padding: 89px;
+        margin-left: 147px;
+
+    }
+
+    .p-1 {
+        font-size: 40px;
+        width: 82%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+
+    .p-1::after {
+        font-size: 28px;
+    }
+
+    .audio-2 {
+        width: 200px;
+        height: 40px;
+        margin: auto;
+        margin-top: 120px;
+        display: flex;
+        position: static;
+    }
+
+    .audio-1 {
+        width: 200px;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        position: relative;
+        top: 40px;
+
+    }
+
+    .p-2 {
+        width: 44%;
+        font-size: 25px;
+        display: flex;
+        margin: 160px 0 0 230px;
+    }
+
+    .p-3 {
+        width: 44%;
+        font-size: 25px;
+        display: flex;
+        margin: 74px 0 0 250px;
+    }
+
+    .banda {
+        width: 750px;
+        height: 400px;
+        margin-top: 80px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: static;
+    }
+
+    .conteudo-3 {
+        width: 100%;
+        height: 900px;
+        margin-left: 167px;
+        padding: 79px;
+
+    }
+
+    .video {
+        width: 600px;
+        height: 300px;
+        margin: 290px 0 0 10px;
+    }
+
+    h5 {
+        font-size: 43px;
+        margin: 20px 0 0 50px;
+    }
+
+    h5::after {
+        font-size: 40px;
+    }
+
+    .paragrafo-1 {
+        margin: 150px 0 0 100px;
+        font-size: 16px;
+    }
+
+    .linha-1 {
+        margin: 146px 0 0 18px;
+        font-size: 16px;
+    }
+
+    .sera {
+        margin: 194px 0 0 68px;
+        letter-spacing: 2px;
+        font-size: 23px;
+        width: 400px;
+    }
+
+    .paragrafo-2 {
+        font-size: 20px;
+        margin: 610px 0px 0 28px;
+    }
+
+    .linha-2 {
+        margin: 620px 0 0 300px;
+        font-size: 16px;
+    }
+
+    .shorts {
+        margin: 670px 0 0 20px;
+        font-size: 23px;
+        letter-spacing: 2px;
+        width: 400px;
+    }
+
+    .vitimas {
+        margin: 780px 0 0 20px;
+        font-size: 23px;
+        letter-spacing: 2px;
+        width: 400px;
+    }
+
+    .ze-ninguem {
+        margin: 860px 0 0 20px;
+        font-size: 23px;
+        letter-spacing: 2px;
+        width: 400px;
+    }
+
+    .rodape {
+        width: 100%;
+        height: 120px;
+        margin-left: 166px;
+        padding: 79px;
+
+    }
+
+    .tell {
+        font-size: 23px;
+    }
+
+    .tell::before {
+        font-size: 32px;
+    }
+
+    .email {
+        font-size: 23px;
+    }
+
+    .email::before {
+        font-size: 32px;
+    }
+
+    .cep {
+        font-size: 23px;
+    }
+
+    .cep::after {
+        font-size: 32px;
+    }
+
+
+}
